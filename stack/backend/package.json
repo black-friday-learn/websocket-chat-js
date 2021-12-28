@@ -5,6 +5,10 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "nodemon": "^2.0.15",
     "uWebSockets.js": "uNetworking/uWebSockets.js#v20.3.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
   }
 }
